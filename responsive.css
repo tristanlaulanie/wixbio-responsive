@@ -231,6 +231,10 @@
         gap: 0;
     }
 
+    .follow-sub {
+        visibility: hidden;
+    }
+
     .follow-div {
         position: relative;
     }
@@ -261,10 +265,40 @@
         overflow-x: hidden;
     }
 
+    /* Main Header */
+    .header-logo {
+        position: relative;
+        left: 10em;
+    }
+
+    .button-cure {
+        /* gap: 1em;
+        margin-top: 20px;
+        padding: 10px 0.5em;
+        padding-left: 3em; */
+        position: relative;
+        width: 26em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .button-cure button {
+        padding: 10px;
+        position: relative;
+        width: 7em;
+        text-align: center;
+        font-size: 15px;
+        text-align: center;
+        margin-right: 3em;
+    }
+
     /* Fruity Header */
 
     .bottles-markups {
-        margin-top: 4em;
+        margin-top: 3em;
     }
 
     .four-bottles {
@@ -283,13 +317,16 @@
     }
 
     .bio-markups {
-        gap: 4.5em;
-        left: 2.5em;
+        position: relative;
+        gap: 4.6em;
+        left: 2.6em;
+        margin-bottom: 10px;
     }
 
     .numbers-markups {
-        gap: 5em;
-        left: 2.5em;
+    position: relative;
+    gap: 2.7em;
+    left: 1.5em;
     }
 
     .fruits-bottles-coconuts{
@@ -539,7 +576,24 @@
 
     .follow-info-contact-footer {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 0;
+    }
+
+    .left-follow h2 {
+        position: relative;
+        left: 1.5em;
+    }
+
+    .social-icons {
+        position: relative;
+        left: 2em;
+    }
+
+    .more-info { 
+        position: relative;
+        left: 1.5em;
     }
 
     .contact-form form {
@@ -552,6 +606,10 @@
         margin-top: 3em;
         margin-left: 2em;
         gap: 1em;
+    }
+
+    .follow-sub {
+        visibility: hidden;
     }
 
   };
