@@ -1,0 +1,559 @@
+@media screen and (min-width: 650px) and (max-width: 1210px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    #leaf-header {
+        position: relative;
+        left: 5em;
+    }
+
+    .header-logo h4 {
+        position: relative;
+        top: 10px;
+        left: 3.5em;
+    }
+    /* Fruity Header */
+    .four-bottles-img {
+        height: 300px;
+        width: 400px;
+    }
+
+    .fruits-bottles-bananas-kiwis {
+        position: relative;
+        left: 9em;
+        width: 9em;
+        height: 6.5em;
+        bottom: 0em;
+    }
+
+    .fruits-bottles-coconuts {
+        z-index: 1;
+        position: relative;
+        top: 3.5em;
+        left: 12.5em;
+        width: 12em;
+    }
+
+    .fruits-bottles-right-images img {
+        position: relative;
+        width: 18em;
+        top: 6em;
+        right: 18em;
+    }
+
+    .leafs-four-bottles {
+        gap: 4.2em;
+        right: 1.2em;
+        bottom: 13em;
+        height: 60px;
+    }
+
+    .bio-markups {
+        right: 1.2em;
+        bottom: 11em;
+        gap: 4.6em;
+    }
+
+    .numbers-markups {
+        visibility: hidden;
+    }
+
+    /* Natural Section */
+
+    .natural-text {
+        position: relative;
+        left: 3em;
+    }
+
+    .natural-text p {
+        padding-bottom: 2em;
+    }
+
+    .natural-text button {
+        position: relative;
+        bottom: 1em;
+    }
+
+    .natural-images-redcurrants {
+        position: relative;
+        width: 15em;
+        left: 5em;
+    }
+
+    .purple-bottle {
+        position: relative;
+        left: 2em;
+    }
+
+    .purple-bottle-markups {
+        position: relative;
+        left: 2em;
+    }
+
+    .natural-images-raspberries {
+        position: relative;
+        top: 2em;
+        right: 2em;
+    }
+
+    /* Nutrition Section */
+
+    .nutrition-images {
+        position: relative;
+        left: 2em;
+    }
+
+    #watermelon-solo {
+        position: relative;
+        z-index: 4;
+        height: 9em;
+        width: 11em;
+        left: 1em;
+        top: 2em;
+    }
+
+    #red-bottle {
+        height: 24em;
+        width: 7em;
+    }
+
+    #lychees-solo {
+        position: relative;
+        right: 2em;
+        z-index: 1;
+    }
+
+    .nutrition-text {
+        position: relative;
+        right: 4.5em;
+    }
+
+    .nutrition-text h2 {
+        position: relative;
+        top: 1.5em;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .nutrition-text button {
+        position: relative;
+        left: 4.5em;
+        bottom: 5em;
+    }
+
+    /* Labels Section */
+
+    #labels-section {
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 5em;
+        margin-bottom: 4em;
+    }
+
+    /* Vitamines Section */
+
+    .vitamin-text {
+        position: relative;
+        left: 7em;
+        margin-bottom: 8em;
+    }
+
+    .vitamin-text h2 {
+        position: relative;
+        font-size: 2.5em;
+        top: 1em;
+        width: 7em;
+    }
+
+    .vitamin-text p {
+        position: relative;
+        bottom: 1em;
+    
+    }
+
+    .vitamin-text button {
+        position: relative;
+        left: 3em;
+    }
+
+    #coconuts-solo {
+        width: 14em;
+        position: relative;
+        top: 3em;
+        left: -3em;
+        z-index: 0;
+    }
+
+    .green-bottle-and-markups img {
+        position: relative;
+        top: 2.5em;
+    }
+
+    #kiwi-solo {
+        position: relative;
+        top: 5em;
+        left: 3em;
+        z-index: 2;
+        width: 8em;
+    }
+
+    .vitamin-images {
+        position: relative;
+        left: 1em;
+    }
+
+    /* Cure Section */
+
+    #bananes-solo {
+        top: 1em;
+        height: 9em;
+        width: 10em;
+    }
+
+    .cure-section-images {
+        position: relative;
+        right: 1em;
+        top: 8em;
+    }
+
+    .cure-section-text {
+        position: relative;
+        right: 3em;
+    
+    }
+
+    /* Foooter */
+
+    .follow-info-contact-footer {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .follow-div {
+        position: relative;
+    }
+
+    .more-info {
+        position: relative;
+    }
+
+    .footer-policies ul {
+        gap: 2em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4em;
+    }
+
+  }
+
+
+
+@media screen and (max-width: 649px) { 
+    .main-div-header h1 {
+        text-align: center;
+    }
+
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    /* Fruity Header */
+
+    .bottles-markups {
+        margin-top: 4em;
+    }
+
+    .four-bottles {
+        margin-right: 15em;
+    }
+
+    .four-bottles-img {
+        height: 300px;
+        width: 400px;
+        left: 3em;
+    }
+
+    .leafs-four-bottles {
+        gap: 4.2em;
+        left: 3em;
+    }
+
+    .bio-markups {
+        gap: 4.5em;
+        left: 2.5em;
+    }
+
+    .numbers-markups {
+        gap: 5em;
+        left: 2.5em;
+    }
+
+    .fruits-bottles-coconuts{
+        height: 120px;
+        width: 150px;
+        margin-top: 5em;
+        margin-left: 24em;
+        z-index: 2;
+        /* border: 2px solid green; */
+    }
+
+    .fruits-bottles-bananas-kiwis{ 
+        z-index: 3;
+        margin-top: 9.5em;      
+        margin-left: 3.5em;
+        height: 75px;
+        width: 140px;
+        /* border: 2px solid blueviolet ; */
+    }
+
+    .fruits-bottles-right-images img {
+        z-index: 3;
+        left: -26em;
+        top: 4em;
+        height: 10em;
+        width: 14em;
+    }
+
+    /* Natural Section */
+
+    .natural-section {
+        /* border: 2px solid red; */
+        padding: 7em 0 8em 0;
+    }
+
+    .natural-text {
+        position: relative;
+        margin-top: 4em;
+        left: 4em;
+    }
+
+    .natural-text h2 {
+        position: relative;
+        top: 1em;
+        margin-bottom: 1em;
+        font-size: 2em;
+    }
+
+    .natural-text button {
+        position: relative;
+        bottom: 2.5em;
+        margin-bottom: 2em;
+    }
+
+    .natural-images-redcurrants {
+        z-index: 3;
+        height: 90px;
+        width: 150px;
+        left: 6.5em;
+    }
+
+    .natural-images-raspberries {
+        z-index: 2;
+        right: 3em;
+        top: 2em;
+    }
+
+    .purple-bottle-and-markups {
+        left: 3em;
+    }
+
+    /* Nutrition Section */
+
+    .nutrition-images {
+        position: relative;
+        right: 5em;
+    }
+
+    #watermelon-solo {
+        position: relative;
+        z-index: 4;
+        height: 7em;
+        width: 8em;
+        left: 10em;
+        top: 3em;
+    }
+
+    .red-bottle-and-markups {
+        position: relative;
+        z-index: 1;
+        left: 6em;
+    }
+
+    #lychees-solo {
+        position: relative;
+        left: 3em;
+        z-index: 0;
+    }
+
+    .nutrition-text h2 {
+        position: relative;
+        font-size: 2em;
+        text-align: left;
+        top: 1.5em;
+        right: 3.5em;
+    }
+
+    .nutrition-text p {
+        position: relative;
+        top: 1.5em;
+        right: 7em;
+    }
+
+    .nutrition-text button {
+        position: relative;
+        right: 5em;
+    }
+
+    /* Labels Section */
+
+    #labels-section {
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 5em;
+        margin-bottom: 4em;
+    }
+
+    /* Vitamin section */
+
+    .vitamin-section {
+        height: 35em;
+    }
+
+    .vitamin-text {
+        position: relative;
+        left: 7em;
+    }
+
+    .vitamin-text h2 {
+        position: relative;
+        font-size: 2em;
+        top: 1.5em;
+    }
+
+    .vitamin-text p {
+        position: relative;
+        bottom: 1em;
+        text-align: left;
+    }
+
+    .vitamin-text button {
+        position: relative;
+        bottom: 4.5em;
+    }
+
+    .vitamin-images {
+        position: relative;
+        margin-bottom: 5.5em;
+    }
+
+    #coconuts-solo {
+        position: relative;
+        width: 10em;
+        height: 8em;
+        top: 4em;
+        right: 5em;
+        z-index: 2;
+    }
+
+    .green-bottle-and-markups{
+        position: relative;
+        top: 1.7em;
+        left: 3em;
+    } 
+
+    #green-bottle {
+        position: relative;
+        height: 25em;
+    }
+
+    #green-bottle-title {
+        position: relative;
+        bottom: 2em;
+    }
+
+    #green-bottle-number {
+        position: relative;
+        bottom: 0.6em;
+    }
+
+    #kiwi-solo {
+        position: relative;
+        top: 4em;
+        left: 6em;
+        z-index: 1;
+        width: 8em;
+    }
+
+    /* Cure Section */
+
+    .cure-section {
+        height: 38em;
+    }
+
+    #bananes-solo {
+        position: relative;
+        height: 8em;
+        width: 10em;
+        top: 2em;
+        left: 3em;
+    }
+
+    #ananas-solo {
+        position: relative;
+        width: 10em;
+        bottom: -1em;
+    }
+
+    .cure-section-images {
+        position: relative;
+        right: -1.5em;
+    }
+
+    #yellow-bottle {
+        width: 8em;
+    }
+
+    .cure-section-text h2 {
+        position: relative;
+        font-size: 2.1em;
+        right: 2.8em;
+        bottom: 1.5em;
+    }
+
+    .cure-section-text p {
+        bottom: 2.2em;
+        right: 5em;
+    }
+
+    .cure-section-text button {
+        position: relative;
+        top: 3em;
+        right: 6em;
+    }
+
+    /* Footer */
+
+    .follow-info-contact-footer {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .contact-form form {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .footer-policies ul {
+        flex-direction: column;
+        margin-top: 3em;
+        margin-left: 2em;
+        gap: 1em;
+    }
+
+  };
+
+  
